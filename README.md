@@ -11,6 +11,18 @@ its neighborhood scale from *natural neighbor* search, and automatically
 estimates the number of clusters, detects cluster centers, and assigns
 every sample to its most appropriate cluster.
 
+## About This Repository
+
+This repository is the **official source-code repository** accompanying
+the paper *"Automated clustering with density peaks"*. The paper itself
+is a collaborative work of five co-authors (see [Paper Authors](#paper-authors)
+below); this repository, however, is **individually created and
+maintained by Huan Yan** (one of the paper's co-authors, responsible for
+the algorithm implementation). Huan Yan is the maintainer in charge of
+the code releases, issue tracking, and pull requests for this repository,
+while the scientific contribution and authorship of the underlying
+research remain jointly credited to all paper co-authors as listed below.
+
 ## Abstract
 
 > Clustering is a significant problem in machine learning and data mining
@@ -112,7 +124,24 @@ BibTeX:
 *This citation will be updated with the final publication details
 (volume, pages, DOI) once the paper is officially accepted and published.*
 
-## Author
+## Paper Authors
+
+The paper *"Automated clustering with density peaks"* is a joint effort
+of the following co-authors (corresponding author marked with \*):
+
+| Author | Affiliation |
+|---|---|
+| Juanying Xie\* | School of Computer Science, Shaanxi Normal University, Xi'an, China; School of Mathematics and Statistics, Xi'an Jiaotong University, Xi'an, China |
+| **Huan Yan** | School of Computer Science, Shaanxi Normal University, Xi'an, China |
+| Mingzhao Wang | School of Computer Science, Shaanxi Normal University, Xi'an, China |
+| Philip W. Grant | Department of Computer Science, Swansea University, Swansea, UK |
+| Witold Pedrycz | Department of Electrical and Computer Engineering, University of Alberta, Edmonton, Canada |
+
+> Note: This repository only reflects the maintenance responsibility of
+> Huan Yan for the released code. Scientific credit for the research
+> presented in the paper is shared jointly among all co-authors above.
+
+## Repository Maintainer
 
 | | |
 |---|---|
@@ -121,6 +150,7 @@ BibTeX:
 | **Email** | yan-huan@snnu.edu.cn |
 | **ORCID** | [https://orcid.org/0009-0000-0016-6324](https://orcid.org/0009-0000-0016-6324) |
 | **Affiliations** | 1. Tencent Cloud Computing (Chongqing) Co., Ltd. <br> 2. Shaanxi Normal University |
+| **Role** | Paper co-author; sole creator and maintainer of this official code repository |
 
 ## License
 
