@@ -111,7 +111,7 @@ If you use this code in your research, please cite the corresponding paper:
 BibTeX:
 
 ```bibtex
-@article{xie2026adpc,
+@article{yan2026adpc,
     title   = {Automated clustering with density peaks},
     author  = {Xie, Juanying and Yan, Huan and Wang, Mingzhao and
                 Grant, Philip W. and Pedrycz, Witold},
