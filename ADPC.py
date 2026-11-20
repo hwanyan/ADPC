@@ -586,7 +586,7 @@ class ADPC:
 
         if CN <= self.CN:
             DV = np.multiply(self.Density, self.RD)
-            sortedIndex = np.argsort(DV)
+            sortedIndex = np.argsort(DV)[::-1]
             p = 0
             while CN <= self.CN and p < self.Size:
                 center = sortedIndex[p]
